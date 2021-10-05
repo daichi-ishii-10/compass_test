@@ -6,19 +6,20 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-    protected $table = 'posts';
+  protected $table = 'posts';
 
-    protected $fillable = [
-        'user_id',
-        'post_sub_category_id',
-        'delete_user_id',
-        'update_user_id',
-        'title',
-        'post',
-        'event_at',
-    ];
+  protected $fillable = [
+    'user_id',
+    'post_sub_category_id',
+    'delete_user_id',
+    'update_user_id',
+    'title',
+    'post',
+    'event_at',
+  ];
 
-    public function test{
-      return 1;
-    }
+  public function test()
+  {
+    return 1;
+  }
 }
