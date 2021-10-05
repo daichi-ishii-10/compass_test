@@ -17,4 +17,8 @@ class Post extends Model
         'post',
         'event_at',
     ];
+
+    public function test{
+      return 1;
+    }
 }
